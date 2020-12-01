@@ -10,3 +10,9 @@ function trocar(elemento){
 function voltar(elemento){
 	elemento.innerHTML="Passe o mouse aqui.";
 }
+function load(){
+	alert("Carregada");
+}
+function change(elemento){
+	alert("valor escolhido: "+elemento.value);
+}
