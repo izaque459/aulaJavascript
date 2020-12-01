@@ -1,3 +1,3 @@
-function(){
-alert("meu primeiro js");
+function clicou(){
+	document.getElementById("agradecimento").innerHTML="Obrigado por clicar";
 }
